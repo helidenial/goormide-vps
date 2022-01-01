@@ -11,7 +11,7 @@ vncserver -kill :1
 
 mv ~/.vnc/xstartup ~/.vnc/xstartup.bak
 cp xstartup /root/.vnc/xstartup
-
+sudo chmod +x ~/.vnc/xstartup
 vncserver 
 sudo apt-get install firefox
 
